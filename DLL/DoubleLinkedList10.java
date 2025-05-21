@@ -56,7 +56,7 @@ public class DoubleLinkedList10 {
         if (current == tail) {
             current.next = newNode;
             newNode.prev = current;
-            current = newNode;
+            tail = newNode;
         } else {
             newNode.next = current.next;
             newNode.prev = current;
