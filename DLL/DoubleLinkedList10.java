@@ -20,7 +20,7 @@ public class DoubleLinkedList10 {
         if (isEmpty()) {
             head = tail = newNode;
         } else {
-            newNode = head;
+            newNode.next = head;
             head.prev = newNode;
             head = newNode;
         }
