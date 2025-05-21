@@ -32,6 +32,8 @@ public class SLIMain10 {
         sll.print();
         sll.removeAt(0);
         sll.print();
+
+        // MODIFIKASI SOAL
         // do {
         //     System.out.println("\nMenu:");
         //     System.out.println("1. Tambah data di awal");
